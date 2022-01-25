@@ -1,0 +1,17 @@
+{
+    "name": "sturm/php-train",
+    "description": "Train exercise in plain PHP to dust off skills",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Sturm\\PhpTrain\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sturm",
+            "email": "chris@chrismcgee.info"
+        }
+    ],
+    "require": {}
+}

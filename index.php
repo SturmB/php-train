@@ -1,3 +1,9 @@
+<?php
+require __DIR__ . "/vendor/autoload.php";
+
+use Sturm\PhpTrain\TrainCar;
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -16,6 +22,10 @@
 </head>
 <body>
 <h1>Hello, world!</h1>
+<?php
+$aCar = new TrainCar(5);
+echo "<p>Train car weighs {$aCar->getWeight()}</p>";
+?>
 
 <!-- Bootstrap JavaScript -->
 <!--suppress SpellCheckingInspection -->
