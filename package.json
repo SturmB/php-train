@@ -1,0 +1,27 @@
+{
+  "name": "php-train",
+  "description": "Train exercise in plain PHP to dust off skills",
+  "version": "0.1.0",
+  "author": "Chris McGee",
+  "bugs": {
+    "url": "https://github.com/SturmB/php-train/issues"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.17.6",
+    "prettier": "^2.5.1"
+  },
+  "homepage": "https://github.com/SturmB/php-train#readme",
+  "keywords": [
+    "php",
+    "train"
+  ],
+  "license": "ISC",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SturmB/php-train.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
