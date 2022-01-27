@@ -13,5 +13,7 @@
             "email": "chris@chrismcgee.info"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-json": "*"
+    }
 }

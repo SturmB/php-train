@@ -19,7 +19,7 @@ class Train
         return array_reduce(
             $this->trainCars,
             function ($a, $b) {
-                return $a + $b;
+                return $a + $b->getWeight();
             },
             0
         );
@@ -38,7 +38,7 @@ class Train
      * @param float $weight
      * @return string
      */
-    public function addTrainCar(string $location, float $weight = 10)
+    public function addTrainCar(string $location, float $weight = 10): string
     {
         if ($this->getLength() >= 30) {
             return "Already at the maximum number of train cars.";
@@ -58,7 +58,7 @@ class Train
      * @param string $location
      * @return string
      */
-    public function removeTrainCar(string $location)
+    public function removeTrainCar(string $location): string
     {
         if ($this->getLength() <= 0) {
             return "Train is empty already.";
