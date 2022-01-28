@@ -1,7 +1,7 @@
 {
   "name": "php-train",
   "description": "Train exercise in plain PHP to dust off skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Chris McGee",
   "bugs": {
     "url": "https://github.com/SturmB/php-train/issues"
