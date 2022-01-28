@@ -4,7 +4,7 @@ namespace Sturm\PhpTrain;
 
 class TrainCar
 {
-    private float $weight;
+    protected float $weight;
 
     /**
      * @param float $weight;
